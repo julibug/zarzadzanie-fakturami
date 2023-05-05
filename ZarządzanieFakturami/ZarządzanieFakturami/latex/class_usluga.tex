@@ -1,0 +1,115 @@
+\hypertarget{class_usluga}{}\doxysection{Dokumentacja klasy Usluga}
+\label{class_usluga}\index{Usluga@{Usluga}}
+
+
+{\ttfamily \#include $<$Usluga.\+h$>$}
+
+Diagram dziedziczenia dla Usluga\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_usluga}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_usluga_adc253b40f8ecb0edcd539ca98a9e4c58}{Usluga}} (string nazwa\+Towaru, float cena, int vat)
+\item 
+float \mbox{\hyperlink{class_usluga_a788fd4a9b65205a9333d819e9dbbd8dd}{cena\+Netto}} ()
+\item 
+float \mbox{\hyperlink{class_usluga_a22693703b86a3014d6b9621f270a25c5}{cena\+Brutto}} ()
+\item 
+int \mbox{\hyperlink{class_usluga_a29fc17ff691b489fbf354f21bffffffe}{stawka\+VAT}} ()
+\item 
+float \mbox{\hyperlink{class_usluga_acd01f171051f862c329e2fad7971730a}{kwota\+VAT}} ()
+\item 
+string \mbox{\hyperlink{class_usluga_a72f3275b02e21cc14199f00a4b6e24cb}{vat\+String}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Dodatkowe Dziedziczone Składowe}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa jednego typu towaru -\/ \mbox{\hyperlink{class_usluga}{Usluga}}. Podklasa, ktora dziedziczy po klasie \mbox{\hyperlink{class_towar}{Towar}}. Zawiera informacje o cenie towaru i stawce VAT. 
+\begin{DoxyParams}{Parametry}
+{\em cena} & cena towaru; \\
+\hline
+{\em vat} & stawka VAT; \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{class_usluga_adc253b40f8ecb0edcd539ca98a9e4c58}\label{class_usluga_adc253b40f8ecb0edcd539ca98a9e4c58}} 
+\index{Usluga@{Usluga}!Usluga@{Usluga}}
+\index{Usluga@{Usluga}!Usluga@{Usluga}}
+\doxysubsubsection{\texorpdfstring{Usluga()}{Usluga()}}
+{\footnotesize\ttfamily Usluga\+::\+Usluga (\begin{DoxyParamCaption}\item[{string}]{nazwa\+Towaru,  }\item[{float}]{cena,  }\item[{int}]{vat }\end{DoxyParamCaption})}
+
+Konstruktor przyjmujacy dane do utworzenia faktury. 
+\begin{DoxyParams}{Parametry}
+{\em nazwa\+Towaru} & nazwa towaru; \\
+\hline
+{\em cena} & cena towaru; \\
+\hline
+{\em vat} & stawka VAT; \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{class_usluga_a22693703b86a3014d6b9621f270a25c5}\label{class_usluga_a22693703b86a3014d6b9621f270a25c5}} 
+\index{Usluga@{Usluga}!cenaBrutto@{cenaBrutto}}
+\index{cenaBrutto@{cenaBrutto}!Usluga@{Usluga}}
+\doxysubsubsection{\texorpdfstring{cenaBrutto()}{cenaBrutto()}}
+{\footnotesize\ttfamily float Usluga\+::cena\+Brutto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda wyliczajaca i zwracajaca cene brutto. 
+
+Implementuje \mbox{\hyperlink{class_towar}{Towar}}.
+
+\mbox{\Hypertarget{class_usluga_a788fd4a9b65205a9333d819e9dbbd8dd}\label{class_usluga_a788fd4a9b65205a9333d819e9dbbd8dd}} 
+\index{Usluga@{Usluga}!cenaNetto@{cenaNetto}}
+\index{cenaNetto@{cenaNetto}!Usluga@{Usluga}}
+\doxysubsubsection{\texorpdfstring{cenaNetto()}{cenaNetto()}}
+{\footnotesize\ttfamily float Usluga\+::cena\+Netto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda wyliczajaca i zwracajaca cene netto. 
+
+Implementuje \mbox{\hyperlink{class_towar}{Towar}}.
+
+\mbox{\Hypertarget{class_usluga_acd01f171051f862c329e2fad7971730a}\label{class_usluga_acd01f171051f862c329e2fad7971730a}} 
+\index{Usluga@{Usluga}!kwotaVAT@{kwotaVAT}}
+\index{kwotaVAT@{kwotaVAT}!Usluga@{Usluga}}
+\doxysubsubsection{\texorpdfstring{kwotaVAT()}{kwotaVAT()}}
+{\footnotesize\ttfamily float Usluga\+::kwota\+VAT (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda wyliczajaca i zwracajaca kwote VAT. 
+
+Implementuje \mbox{\hyperlink{class_towar}{Towar}}.
+
+\mbox{\Hypertarget{class_usluga_a29fc17ff691b489fbf354f21bffffffe}\label{class_usluga_a29fc17ff691b489fbf354f21bffffffe}} 
+\index{Usluga@{Usluga}!stawkaVAT@{stawkaVAT}}
+\index{stawkaVAT@{stawkaVAT}!Usluga@{Usluga}}
+\doxysubsubsection{\texorpdfstring{stawkaVAT()}{stawkaVAT()}}
+{\footnotesize\ttfamily int Usluga\+::stawka\+VAT (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda zwracajaca stawke VAT. 
+
+Implementuje \mbox{\hyperlink{class_towar}{Towar}}.
+
+\mbox{\Hypertarget{class_usluga_a72f3275b02e21cc14199f00a4b6e24cb}\label{class_usluga_a72f3275b02e21cc14199f00a4b6e24cb}} 
+\index{Usluga@{Usluga}!vatString@{vatString}}
+\index{vatString@{vatString}!Usluga@{Usluga}}
+\doxysubsubsection{\texorpdfstring{vatString()}{vatString()}}
+{\footnotesize\ttfamily string Usluga\+::vat\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda zwracajaca stawke VAT w stringu. 
+
+Implementuje \mbox{\hyperlink{class_towar}{Towar}}.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+Usluga.\+h\item 
+Usluga.\+cpp\end{DoxyCompactItemize}

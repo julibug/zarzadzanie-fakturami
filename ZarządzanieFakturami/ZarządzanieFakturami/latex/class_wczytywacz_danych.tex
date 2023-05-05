@@ -1,0 +1,60 @@
+\hypertarget{class_wczytywacz_danych}{}\doxysection{Dokumentacja klasy Wczytywacz\+Danych}
+\label{class_wczytywacz_danych}\index{WczytywaczDanych@{WczytywaczDanych}}
+
+
+{\ttfamily \#include $<$Wczytywacz\+Danych.\+h$>$}
+
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \mbox{\hyperlink{class_klient}{Klient}} $\ast$ $>$ \mbox{\hyperlink{class_wczytywacz_danych_a88537a34321c4b153d6fb4f18b8e64d8}{wczytaj\+Klientow}} (string sciezka)
+\item 
+vector$<$ \mbox{\hyperlink{class_towar}{Towar}} $\ast$ $>$ \mbox{\hyperlink{class_wczytywacz_danych_a143334332418d47df422193e673c808b}{wczytaj\+Towary}} (string sciezka)
+\item 
+\mbox{\hyperlink{class_klient_firmowy}{Klient\+Firmowy}} \mbox{\hyperlink{class_wczytywacz_danych_ab8638396cd1091728c8749f7fbf400c6}{wczytaj\+Sprzedawce}} (string sciezka)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa zajmuje si� wczytywaniem klientow, towarow i danych sprzedawcy. 
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{class_wczytywacz_danych_a88537a34321c4b153d6fb4f18b8e64d8}\label{class_wczytywacz_danych_a88537a34321c4b153d6fb4f18b8e64d8}} 
+\index{WczytywaczDanych@{WczytywaczDanych}!wczytajKlientow@{wczytajKlientow}}
+\index{wczytajKlientow@{wczytajKlientow}!WczytywaczDanych@{WczytywaczDanych}}
+\doxysubsubsection{\texorpdfstring{wczytajKlientow()}{wczytajKlientow()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_klient}{Klient}} $\ast$ $>$ Wczytywacz\+Danych\+::wczytaj\+Klientow (\begin{DoxyParamCaption}\item[{string}]{sciezka }\end{DoxyParamCaption})}
+
+Metoda wczytujaca klientow z pliku. 
+\begin{DoxyParams}{Parametry}
+{\em sciezka} & sciezka do pliku; \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wczytywacz_danych_ab8638396cd1091728c8749f7fbf400c6}\label{class_wczytywacz_danych_ab8638396cd1091728c8749f7fbf400c6}} 
+\index{WczytywaczDanych@{WczytywaczDanych}!wczytajSprzedawce@{wczytajSprzedawce}}
+\index{wczytajSprzedawce@{wczytajSprzedawce}!WczytywaczDanych@{WczytywaczDanych}}
+\doxysubsubsection{\texorpdfstring{wczytajSprzedawce()}{wczytajSprzedawce()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_klient_firmowy}{Klient\+Firmowy}} Wczytywacz\+Danych\+::wczytaj\+Sprzedawce (\begin{DoxyParamCaption}\item[{string}]{sciezka }\end{DoxyParamCaption})}
+
+Metoda wczytujaca dane sprzedawcy z pliku. 
+\begin{DoxyParams}{Parametry}
+{\em sciezka} & sciezka do pliku; \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wczytywacz_danych_a143334332418d47df422193e673c808b}\label{class_wczytywacz_danych_a143334332418d47df422193e673c808b}} 
+\index{WczytywaczDanych@{WczytywaczDanych}!wczytajTowary@{wczytajTowary}}
+\index{wczytajTowary@{wczytajTowary}!WczytywaczDanych@{WczytywaczDanych}}
+\doxysubsubsection{\texorpdfstring{wczytajTowary()}{wczytajTowary()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_towar}{Towar}} $\ast$ $>$ Wczytywacz\+Danych\+::wczytaj\+Towary (\begin{DoxyParamCaption}\item[{string}]{sciezka }\end{DoxyParamCaption})}
+
+Metoda wczytujaca towary z pliku. 
+\begin{DoxyParams}{Parametry}
+{\em sciezka} & sciezka do pliku; \\
+\hline
+\end{DoxyParams}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+Wczytywacz\+Danych.\+h\item 
+Wczytywacz\+Danych.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,95 @@
+\hypertarget{class_klient_firmowy}{}\doxysection{Dokumentacja klasy Klient\+Firmowy}
+\label{class_klient_firmowy}\index{KlientFirmowy@{KlientFirmowy}}
+
+
+{\ttfamily \#include $<$Klient\+Firmowy.\+h$>$}
+
+Diagram dziedziczenia dla Klient\+Firmowy\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_klient_firmowy}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_klient_firmowy_a8035ecb447f48deea20a7bc7364be88c}{Klient\+Firmowy}} ()
+\item 
+\mbox{\hyperlink{class_klient_firmowy_a8fe86915235ca1008f16fad3b52be49d}{Klient\+Firmowy}} (string nazwa\+Firmy, string nip, string adres, string kod\+Pocztowy, string miejscowosc, string zwolniony\+ZVat)
+\item 
+string \mbox{\hyperlink{class_klient_firmowy_a2d668dadf613649cc97e6888f0cc7871}{nazwa}} ()
+\item 
+void \mbox{\hyperlink{class_klient_firmowy_aa5857745ed775ecd4b083844d08bdf4b}{wypisz}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Dodatkowe Dziedziczone Składowe}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa jednego typu klienta -\/ \mbox{\hyperlink{class_klient}{Klient}} Firmowy. Podklasa, ktora dziedziczy po klasie \mbox{\hyperlink{class_klient}{Klient}}. Zawiera nazwe firmy, NIP oraz informacje czy klient jest zwolniony z podatku VAT. 
+\begin{DoxyParams}{Parametry}
+{\em nazwa\+Firmy} & nazwa firmy; \\
+\hline
+{\em NIP} & NIP klienta; \\
+\hline
+{\em zwolniony\+ZVat} & zawiera informacje czy klient jest zwolniony z podatku VAT; \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{class_klient_firmowy_a8035ecb447f48deea20a7bc7364be88c}\label{class_klient_firmowy_a8035ecb447f48deea20a7bc7364be88c}} 
+\index{KlientFirmowy@{KlientFirmowy}!KlientFirmowy@{KlientFirmowy}}
+\index{KlientFirmowy@{KlientFirmowy}!KlientFirmowy@{KlientFirmowy}}
+\doxysubsubsection{\texorpdfstring{KlientFirmowy()}{KlientFirmowy()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Klient\+Firmowy\+::\+Klient\+Firmowy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Konstruktor ustawiajacy wartosci domyslne pola zwolniony\+ZVat. \mbox{\Hypertarget{class_klient_firmowy_a8fe86915235ca1008f16fad3b52be49d}\label{class_klient_firmowy_a8fe86915235ca1008f16fad3b52be49d}} 
+\index{KlientFirmowy@{KlientFirmowy}!KlientFirmowy@{KlientFirmowy}}
+\index{KlientFirmowy@{KlientFirmowy}!KlientFirmowy@{KlientFirmowy}}
+\doxysubsubsection{\texorpdfstring{KlientFirmowy()}{KlientFirmowy()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Klient\+Firmowy\+::\+Klient\+Firmowy (\begin{DoxyParamCaption}\item[{string}]{nazwa\+Firmy,  }\item[{string}]{nip,  }\item[{string}]{adres,  }\item[{string}]{kod\+Pocztowy,  }\item[{string}]{miejscowosc,  }\item[{string}]{zwolniony\+ZVat }\end{DoxyParamCaption})}
+
+Konstruktor przyjmujacy dane klienta firmowego. 
+\begin{DoxyParams}{Parametry}
+{\em nazwa\+Firmy} & nazwa firmy; \\
+\hline
+{\em nip} & NIP klienta firmowego; \\
+\hline
+{\em adres} & adres klienta firmowego; \\
+\hline
+{\em kod\+Pocztowy} & kod pocztowy klienta firmowego; \\
+\hline
+{\em miejscowosc} & miejscowosc klienta firmowego; \\
+\hline
+{\em zwolniony\+ZVat} & zawiera informacje czy klient firmowy jest zwolniony z podatku VAT; \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{class_klient_firmowy_a2d668dadf613649cc97e6888f0cc7871}\label{class_klient_firmowy_a2d668dadf613649cc97e6888f0cc7871}} 
+\index{KlientFirmowy@{KlientFirmowy}!nazwa@{nazwa}}
+\index{nazwa@{nazwa}!KlientFirmowy@{KlientFirmowy}}
+\doxysubsubsection{\texorpdfstring{nazwa()}{nazwa()}}
+{\footnotesize\ttfamily string Klient\+Firmowy\+::nazwa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda zwracajaca nazwe firmy. 
+
+Implementuje \mbox{\hyperlink{class_klient}{Klient}}.
+
+\mbox{\Hypertarget{class_klient_firmowy_aa5857745ed775ecd4b083844d08bdf4b}\label{class_klient_firmowy_aa5857745ed775ecd4b083844d08bdf4b}} 
+\index{KlientFirmowy@{KlientFirmowy}!wypisz@{wypisz}}
+\index{wypisz@{wypisz}!KlientFirmowy@{KlientFirmowy}}
+\doxysubsubsection{\texorpdfstring{wypisz()}{wypisz()}}
+{\footnotesize\ttfamily void Klient\+Firmowy\+::wypisz (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda wypisujaca dane klienta firmowego. 
+
+Implementuje \mbox{\hyperlink{class_klient}{Klient}}.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+Klient\+Firmowy.\+h\item 
+Klient\+Firmowy.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,108 @@
+\hypertarget{class_kreator_faktur}{}\doxysection{Dokumentacja klasy Kreator\+Faktur}
+\label{class_kreator_faktur}\index{KreatorFaktur@{KreatorFaktur}}
+
+
+{\ttfamily \#include $<$Kreator\+Faktur.\+h$>$}
+
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_kreator_faktur_a3ab4436daa7ca8a585bc1259fda8c94a}{Kreator\+Faktur}} (\mbox{\hyperlink{class_klient_firmowy}{Klient\+Firmowy}} sprzedawca, vector$<$ \mbox{\hyperlink{class_klient}{Klient}} $\ast$ $>$ k, vector$<$ \mbox{\hyperlink{class_towar}{Towar}} $\ast$ $>$ t)
+\item 
+void \mbox{\hyperlink{class_kreator_faktur_a8d1cbe0b72b39ec841a4f7225030d524}{wypisywanie\+Klientow}} ()
+\item 
+void \mbox{\hyperlink{class_kreator_faktur_abbb05c5fdbd3bf793631667f4bf54a3f}{wypisywanie\+Towarow}} ()
+\item 
+void \mbox{\hyperlink{class_kreator_faktur_acbf92199e2754ad630a39fdc890534bc}{dodaj\+Fakture}} ()
+\item 
+void \mbox{\hyperlink{class_kreator_faktur_adf9bf69f099c71571a3d3a1ab07940b1}{wypisz\+Liste\+Faktur}} ()
+\item 
+void \mbox{\hyperlink{class_kreator_faktur_abf306f98c1900bc1e4db5beaf7f36992}{wypisz\+Fakture}} (int i)
+\item 
+void \mbox{\hyperlink{class_kreator_faktur_a9f3e0903e91fd1148f6c102a13227d5c}{usun\+Fakture}} (int i)
+\item 
+void \mbox{\hyperlink{class_kreator_faktur_a4066cbf561350087af39d2daf367370a}{wyczysc\+Pamiec}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa zajmuje si� tworzeniem i przechowywaniem utworzonych faktur, a takze wypisywaniem ich i usuwaniem. 
+\begin{DoxyParams}{Parametry}
+{\em sprzedawca} & dane sprzedajacego; \\
+\hline
+{\em klienci} & baza klientow; \\
+\hline
+{\em towary} & baza towarow; \\
+\hline
+{\em faktury} & utworzone faktury; \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{class_kreator_faktur_a3ab4436daa7ca8a585bc1259fda8c94a}\label{class_kreator_faktur_a3ab4436daa7ca8a585bc1259fda8c94a}} 
+\index{KreatorFaktur@{KreatorFaktur}!KreatorFaktur@{KreatorFaktur}}
+\index{KreatorFaktur@{KreatorFaktur}!KreatorFaktur@{KreatorFaktur}}
+\doxysubsubsection{\texorpdfstring{KreatorFaktur()}{KreatorFaktur()}}
+{\footnotesize\ttfamily Kreator\+Faktur\+::\+Kreator\+Faktur (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_klient_firmowy}{Klient\+Firmowy}}}]{sprzedawca,  }\item[{vector$<$ \mbox{\hyperlink{class_klient}{Klient}} $\ast$ $>$}]{k,  }\item[{vector$<$ \mbox{\hyperlink{class_towar}{Towar}} $\ast$ $>$}]{t }\end{DoxyParamCaption})}
+
+Konstruktor. 
+\begin{DoxyParams}{Parametry}
+{\em sprzedawca} & sprzedawca; \\
+\hline
+{\em k} & klienci; \\
+\hline
+{\em t} & towary; \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{class_kreator_faktur_acbf92199e2754ad630a39fdc890534bc}\label{class_kreator_faktur_acbf92199e2754ad630a39fdc890534bc}} 
+\index{KreatorFaktur@{KreatorFaktur}!dodajFakture@{dodajFakture}}
+\index{dodajFakture@{dodajFakture}!KreatorFaktur@{KreatorFaktur}}
+\doxysubsubsection{\texorpdfstring{dodajFakture()}{dodajFakture()}}
+{\footnotesize\ttfamily void Kreator\+Faktur\+::dodaj\+Fakture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda tworzaca i dodajaca fakture. \mbox{\Hypertarget{class_kreator_faktur_a9f3e0903e91fd1148f6c102a13227d5c}\label{class_kreator_faktur_a9f3e0903e91fd1148f6c102a13227d5c}} 
+\index{KreatorFaktur@{KreatorFaktur}!usunFakture@{usunFakture}}
+\index{usunFakture@{usunFakture}!KreatorFaktur@{KreatorFaktur}}
+\doxysubsubsection{\texorpdfstring{usunFakture()}{usunFakture()}}
+{\footnotesize\ttfamily void Kreator\+Faktur\+::usun\+Fakture (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+Metoda usuwajaca fakture. \mbox{\Hypertarget{class_kreator_faktur_a4066cbf561350087af39d2daf367370a}\label{class_kreator_faktur_a4066cbf561350087af39d2daf367370a}} 
+\index{KreatorFaktur@{KreatorFaktur}!wyczyscPamiec@{wyczyscPamiec}}
+\index{wyczyscPamiec@{wyczyscPamiec}!KreatorFaktur@{KreatorFaktur}}
+\doxysubsubsection{\texorpdfstring{wyczyscPamiec()}{wyczyscPamiec()}}
+{\footnotesize\ttfamily void Kreator\+Faktur\+::wyczysc\+Pamiec (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda czyszczaca pamiec pol. \mbox{\Hypertarget{class_kreator_faktur_a8d1cbe0b72b39ec841a4f7225030d524}\label{class_kreator_faktur_a8d1cbe0b72b39ec841a4f7225030d524}} 
+\index{KreatorFaktur@{KreatorFaktur}!wypisywanieKlientow@{wypisywanieKlientow}}
+\index{wypisywanieKlientow@{wypisywanieKlientow}!KreatorFaktur@{KreatorFaktur}}
+\doxysubsubsection{\texorpdfstring{wypisywanieKlientow()}{wypisywanieKlientow()}}
+{\footnotesize\ttfamily void Kreator\+Faktur\+::wypisywanie\+Klientow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda wypisujaca liste klientow. \mbox{\Hypertarget{class_kreator_faktur_abbb05c5fdbd3bf793631667f4bf54a3f}\label{class_kreator_faktur_abbb05c5fdbd3bf793631667f4bf54a3f}} 
+\index{KreatorFaktur@{KreatorFaktur}!wypisywanieTowarow@{wypisywanieTowarow}}
+\index{wypisywanieTowarow@{wypisywanieTowarow}!KreatorFaktur@{KreatorFaktur}}
+\doxysubsubsection{\texorpdfstring{wypisywanieTowarow()}{wypisywanieTowarow()}}
+{\footnotesize\ttfamily void Kreator\+Faktur\+::wypisywanie\+Towarow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda wypisujaca liste towarow. \mbox{\Hypertarget{class_kreator_faktur_abf306f98c1900bc1e4db5beaf7f36992}\label{class_kreator_faktur_abf306f98c1900bc1e4db5beaf7f36992}} 
+\index{KreatorFaktur@{KreatorFaktur}!wypiszFakture@{wypiszFakture}}
+\index{wypiszFakture@{wypiszFakture}!KreatorFaktur@{KreatorFaktur}}
+\doxysubsubsection{\texorpdfstring{wypiszFakture()}{wypiszFakture()}}
+{\footnotesize\ttfamily void Kreator\+Faktur\+::wypisz\+Fakture (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+Metoda wypisujaca fakture. \mbox{\Hypertarget{class_kreator_faktur_adf9bf69f099c71571a3d3a1ab07940b1}\label{class_kreator_faktur_adf9bf69f099c71571a3d3a1ab07940b1}} 
+\index{KreatorFaktur@{KreatorFaktur}!wypiszListeFaktur@{wypiszListeFaktur}}
+\index{wypiszListeFaktur@{wypiszListeFaktur}!KreatorFaktur@{KreatorFaktur}}
+\doxysubsubsection{\texorpdfstring{wypiszListeFaktur()}{wypiszListeFaktur()}}
+{\footnotesize\ttfamily void Kreator\+Faktur\+::wypisz\+Liste\+Faktur (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda wypisujaca liste faktur. 
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+Kreator\+Faktur.\+h\item 
+Kreator\+Faktur.\+cpp\end{DoxyCompactItemize}

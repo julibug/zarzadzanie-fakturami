@@ -1,0 +1,111 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {polish}{}
+\contentsline {chapter}{\numberline {1}Indeks hierarchiczny}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Hierarchia klas}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Indeks klas}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Lista klas}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Dokumentacja klas}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Dokumentacja klasy Artykul}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Opis szczegółowy}{5}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Dokumentacja konstruktora i destruktora}{6}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Artykul()}{6}{subsubsection.3.1.2.1}%
+\contentsline {subsection}{\numberline {3.1.3}Dokumentacja funkcji składowych}{6}{subsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}cenaBrutto()}{6}{subsubsection.3.1.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.3.2}cenaNetto()}{6}{subsubsection.3.1.3.2}%
+\contentsline {subsubsection}{\numberline {3.1.3.3}kwotaVAT()}{7}{subsubsection.3.1.3.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.4}stawkaVAT()}{7}{subsubsection.3.1.3.4}%
+\contentsline {subsubsection}{\numberline {3.1.3.5}vatString()}{7}{subsubsection.3.1.3.5}%
+\contentsline {section}{\numberline {3.2}Dokumentacja klasy Faktura}{7}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Opis szczegółowy}{8}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Dokumentacja konstruktora i destruktora}{8}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}Faktura()}{9}{subsubsection.3.2.2.1}%
+\contentsline {subsection}{\numberline {3.2.3}Dokumentacja funkcji składowych}{9}{subsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3.1}dodajTowar()}{9}{subsubsection.3.2.3.1}%
+\contentsline {subsubsection}{\numberline {3.2.3.2}getCzyOplacone()}{9}{subsubsection.3.2.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.3.3}getDataSprzedazy()}{9}{subsubsection.3.2.3.3}%
+\contentsline {subsubsection}{\numberline {3.2.3.4}getFormaPlatnosci()}{9}{subsubsection.3.2.3.4}%
+\contentsline {subsubsection}{\numberline {3.2.3.5}getKlient()}{10}{subsubsection.3.2.3.5}%
+\contentsline {subsubsection}{\numberline {3.2.3.6}getKwotaBrutto()}{10}{subsubsection.3.2.3.6}%
+\contentsline {subsubsection}{\numberline {3.2.3.7}getKwotaNetto()}{10}{subsubsection.3.2.3.7}%
+\contentsline {subsubsection}{\numberline {3.2.3.8}getListaTowarow()}{10}{subsubsection.3.2.3.8}%
+\contentsline {subsubsection}{\numberline {3.2.3.9}getMiejsceWystawienia()}{10}{subsubsection.3.2.3.9}%
+\contentsline {subsubsection}{\numberline {3.2.3.10}getNumerFaktury()}{10}{subsubsection.3.2.3.10}%
+\contentsline {subsubsection}{\numberline {3.2.3.11}getSprzedawca()}{10}{subsubsection.3.2.3.11}%
+\contentsline {subsubsection}{\numberline {3.2.3.12}getUwagi()}{10}{subsubsection.3.2.3.12}%
+\contentsline {subsubsection}{\numberline {3.2.3.13}setCzyOplacone()}{10}{subsubsection.3.2.3.13}%
+\contentsline {subsubsection}{\numberline {3.2.3.14}setDataSprzedazy()}{11}{subsubsection.3.2.3.14}%
+\contentsline {subsubsection}{\numberline {3.2.3.15}setFormaPlatnosci()}{11}{subsubsection.3.2.3.15}%
+\contentsline {subsubsection}{\numberline {3.2.3.16}setKlient()}{11}{subsubsection.3.2.3.16}%
+\contentsline {subsubsection}{\numberline {3.2.3.17}setMiejsceWystawienia()}{12}{subsubsection.3.2.3.17}%
+\contentsline {subsubsection}{\numberline {3.2.3.18}setNumerFaktury()}{12}{subsubsection.3.2.3.18}%
+\contentsline {subsubsection}{\numberline {3.2.3.19}setSprzedawca()}{12}{subsubsection.3.2.3.19}%
+\contentsline {subsubsection}{\numberline {3.2.3.20}setUwagi()}{12}{subsubsection.3.2.3.20}%
+\contentsline {subsubsection}{\numberline {3.2.3.21}suma()}{13}{subsubsection.3.2.3.21}%
+\contentsline {subsubsection}{\numberline {3.2.3.22}wypisz()}{13}{subsubsection.3.2.3.22}%
+\contentsline {subsubsection}{\numberline {3.2.3.23}wypiszNumerFaktury()}{13}{subsubsection.3.2.3.23}%
+\contentsline {section}{\numberline {3.3}Dokumentacja klasy Klient}{13}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Opis szczegółowy}{14}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Dokumentacja klasy Klient\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Firmowy}{14}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Opis szczegółowy}{15}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Dokumentacja konstruktora i destruktora}{16}{subsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.2.1}KlientFirmowy()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{16}{subsubsection.3.4.2.1}%
+\contentsline {subsubsection}{\numberline {3.4.2.2}KlientFirmowy()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{16}{subsubsection.3.4.2.2}%
+\contentsline {subsection}{\numberline {3.4.3}Dokumentacja funkcji składowych}{16}{subsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.3.1}nazwa()}{16}{subsubsection.3.4.3.1}%
+\contentsline {subsubsection}{\numberline {3.4.3.2}wypisz()}{17}{subsubsection.3.4.3.2}%
+\contentsline {section}{\numberline {3.5}Dokumentacja klasy Klient\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Indywidualny}{17}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Opis szczegółowy}{17}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Dokumentacja konstruktora i destruktora}{18}{subsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.1}KlientIndywidualny()}{18}{subsubsection.3.5.2.1}%
+\contentsline {subsection}{\numberline {3.5.3}Dokumentacja funkcji składowych}{18}{subsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.3.1}nazwa()}{18}{subsubsection.3.5.3.1}%
+\contentsline {subsubsection}{\numberline {3.5.3.2}wypisz()}{18}{subsubsection.3.5.3.2}%
+\contentsline {section}{\numberline {3.6}Dokumentacja klasy Kreator\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Faktur}{19}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Opis szczegółowy}{19}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Dokumentacja konstruktora i destruktora}{19}{subsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.2.1}KreatorFaktur()}{19}{subsubsection.3.6.2.1}%
+\contentsline {subsection}{\numberline {3.6.3}Dokumentacja funkcji składowych}{20}{subsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.3.1}dodajFakture()}{20}{subsubsection.3.6.3.1}%
+\contentsline {subsubsection}{\numberline {3.6.3.2}usunFakture()}{20}{subsubsection.3.6.3.2}%
+\contentsline {subsubsection}{\numberline {3.6.3.3}wyczyscPamiec()}{20}{subsubsection.3.6.3.3}%
+\contentsline {subsubsection}{\numberline {3.6.3.4}wypisywanieKlientow()}{20}{subsubsection.3.6.3.4}%
+\contentsline {subsubsection}{\numberline {3.6.3.5}wypisywanieTowarow()}{20}{subsubsection.3.6.3.5}%
+\contentsline {subsubsection}{\numberline {3.6.3.6}wypiszFakture()}{20}{subsubsection.3.6.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.3.7}wypiszListeFaktur()}{21}{subsubsection.3.6.3.7}%
+\contentsline {section}{\numberline {3.7}Dokumentacja klasy Towar}{21}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Opis szczegółowy}{21}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Dokumentacja funkcji składowych}{22}{subsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.2.1}getIlosc()}{22}{subsubsection.3.7.2.1}%
+\contentsline {subsubsection}{\numberline {3.7.2.2}nazwa()}{22}{subsubsection.3.7.2.2}%
+\contentsline {subsubsection}{\numberline {3.7.2.3}setIlosc()}{22}{subsubsection.3.7.2.3}%
+\contentsline {subsubsection}{\numberline {3.7.2.4}wypisz()}{22}{subsubsection.3.7.2.4}%
+\contentsline {section}{\numberline {3.8}Dokumentacja klasy Usluga}{22}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Opis szczegółowy}{23}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Dokumentacja konstruktora i destruktora}{23}{subsection.3.8.2}%
+\contentsline {subsubsection}{\numberline {3.8.2.1}Usluga()}{23}{subsubsection.3.8.2.1}%
+\contentsline {subsection}{\numberline {3.8.3}Dokumentacja funkcji składowych}{23}{subsection.3.8.3}%
+\contentsline {subsubsection}{\numberline {3.8.3.1}cenaBrutto()}{24}{subsubsection.3.8.3.1}%
+\contentsline {subsubsection}{\numberline {3.8.3.2}cenaNetto()}{24}{subsubsection.3.8.3.2}%
+\contentsline {subsubsection}{\numberline {3.8.3.3}kwotaVAT()}{24}{subsubsection.3.8.3.3}%
+\contentsline {subsubsection}{\numberline {3.8.3.4}stawkaVAT()}{24}{subsubsection.3.8.3.4}%
+\contentsline {subsubsection}{\numberline {3.8.3.5}vatString()}{24}{subsubsection.3.8.3.5}%
+\contentsline {section}{\numberline {3.9}Dokumentacja klasy Wczytywacz\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Danych}{25}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Opis szczegółowy}{25}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}Dokumentacja funkcji składowych}{25}{subsection.3.9.2}%
+\contentsline {subsubsection}{\numberline {3.9.2.1}wczytajKlientow()}{25}{subsubsection.3.9.2.1}%
+\contentsline {subsubsection}{\numberline {3.9.2.2}wczytajSprzedawce()}{25}{subsubsection.3.9.2.2}%
+\contentsline {subsubsection}{\numberline {3.9.2.3}wczytajTowary()}{26}{subsubsection.3.9.2.3}%
+\contentsline {section}{\numberline {3.10}Dokumentacja klasy Zestaw}{26}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}Opis szczegółowy}{26}{subsection.3.10.1}%
+\contentsline {subsection}{\numberline {3.10.2}Dokumentacja konstruktora i destruktora}{27}{subsection.3.10.2}%
+\contentsline {subsubsection}{\numberline {3.10.2.1}Zestaw()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{27}{subsubsection.3.10.2.1}%
+\contentsline {subsubsection}{\numberline {3.10.2.2}Zestaw()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{27}{subsubsection.3.10.2.2}%
+\contentsline {subsubsection}{\numberline {3.10.2.3}$\sim $Zestaw()}{27}{subsubsection.3.10.2.3}%
+\contentsline {subsection}{\numberline {3.10.3}Dokumentacja funkcji składowych}{27}{subsection.3.10.3}%
+\contentsline {subsubsection}{\numberline {3.10.3.1}cenaBrutto()}{27}{subsubsection.3.10.3.1}%
+\contentsline {subsubsection}{\numberline {3.10.3.2}cenaNetto()}{28}{subsubsection.3.10.3.2}%
+\contentsline {subsubsection}{\numberline {3.10.3.3}dodajTowar()}{28}{subsubsection.3.10.3.3}%
+\contentsline {subsubsection}{\numberline {3.10.3.4}kwotaVAT()}{28}{subsubsection.3.10.3.4}%
+\contentsline {subsubsection}{\numberline {3.10.3.5}stawkaVAT()}{28}{subsubsection.3.10.3.5}%
+\contentsline {subsubsection}{\numberline {3.10.3.6}vatString()}{28}{subsubsection.3.10.3.6}%
+\contentsline {chapter}{Indeks}{29}{section*.25}%

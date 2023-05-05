@@ -1,0 +1,117 @@
+\hypertarget{class_artykul}{}\doxysection{Dokumentacja klasy Artykul}
+\label{class_artykul}\index{Artykul@{Artykul}}
+
+
+{\ttfamily \#include $<$Artykul.\+h$>$}
+
+Diagram dziedziczenia dla Artykul\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_artykul}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_artykul_af515bab049cf0f9133bd685f99cb391e}{Artykul}} (string nazwa\+Towaru, string jednostka, float cena, int vat)
+\item 
+float \mbox{\hyperlink{class_artykul_abd630020ed97a369058677ce2c1b793a}{cena\+Netto}} ()
+\item 
+float \mbox{\hyperlink{class_artykul_a9667b566a48f29b840fd71248e169114}{cena\+Brutto}} ()
+\item 
+int \mbox{\hyperlink{class_artykul_a5bce19dd628096b49a50dd6400ddbaf1}{stawka\+VAT}} ()
+\item 
+float \mbox{\hyperlink{class_artykul_a9ef29298d3c2cfc5df739829f47c4625}{kwota\+VAT}} ()
+\item 
+string \mbox{\hyperlink{class_artykul_aee0c30389cd7dd64a12418ce271734af}{vat\+String}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Dodatkowe Dziedziczone Składowe}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa jednego typu towaru -\/ \mbox{\hyperlink{class_artykul}{Artykul}}. Podklasa, ktora dziedziczy po klasie \mbox{\hyperlink{class_towar}{Towar}}. Zawiera informacje o cenie towaru i stawce VAT. 
+\begin{DoxyParams}{Parametry}
+{\em cena} & cena towaru; \\
+\hline
+{\em vat} & stawka VAT; \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{class_artykul_af515bab049cf0f9133bd685f99cb391e}\label{class_artykul_af515bab049cf0f9133bd685f99cb391e}} 
+\index{Artykul@{Artykul}!Artykul@{Artykul}}
+\index{Artykul@{Artykul}!Artykul@{Artykul}}
+\doxysubsubsection{\texorpdfstring{Artykul()}{Artykul()}}
+{\footnotesize\ttfamily Artykul\+::\+Artykul (\begin{DoxyParamCaption}\item[{string}]{nazwa\+Towaru,  }\item[{string}]{jednostka,  }\item[{float}]{cena,  }\item[{int}]{vat }\end{DoxyParamCaption})}
+
+Konstruktor przyjmuj�cy dane do utworzenia faktury. 
+\begin{DoxyParams}{Parametry}
+{\em nazwa\+Towaru} & nazwa towaru; \\
+\hline
+{\em jednostka} & jednostka; \\
+\hline
+{\em cena} & cena towaru; \\
+\hline
+{\em vat} & stawka VAT; \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{class_artykul_a9667b566a48f29b840fd71248e169114}\label{class_artykul_a9667b566a48f29b840fd71248e169114}} 
+\index{Artykul@{Artykul}!cenaBrutto@{cenaBrutto}}
+\index{cenaBrutto@{cenaBrutto}!Artykul@{Artykul}}
+\doxysubsubsection{\texorpdfstring{cenaBrutto()}{cenaBrutto()}}
+{\footnotesize\ttfamily float Artykul\+::cena\+Brutto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda wyliczajaca i zwracajaca cene brutto. 
+
+Implementuje \mbox{\hyperlink{class_towar}{Towar}}.
+
+\mbox{\Hypertarget{class_artykul_abd630020ed97a369058677ce2c1b793a}\label{class_artykul_abd630020ed97a369058677ce2c1b793a}} 
+\index{Artykul@{Artykul}!cenaNetto@{cenaNetto}}
+\index{cenaNetto@{cenaNetto}!Artykul@{Artykul}}
+\doxysubsubsection{\texorpdfstring{cenaNetto()}{cenaNetto()}}
+{\footnotesize\ttfamily float Artykul\+::cena\+Netto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda wyliczajaca i zwracajaca cene netto. 
+
+Implementuje \mbox{\hyperlink{class_towar}{Towar}}.
+
+\mbox{\Hypertarget{class_artykul_a9ef29298d3c2cfc5df739829f47c4625}\label{class_artykul_a9ef29298d3c2cfc5df739829f47c4625}} 
+\index{Artykul@{Artykul}!kwotaVAT@{kwotaVAT}}
+\index{kwotaVAT@{kwotaVAT}!Artykul@{Artykul}}
+\doxysubsubsection{\texorpdfstring{kwotaVAT()}{kwotaVAT()}}
+{\footnotesize\ttfamily float Artykul\+::kwota\+VAT (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda wyliczajaca i zwracajaca kwote VAT. 
+
+Implementuje \mbox{\hyperlink{class_towar}{Towar}}.
+
+\mbox{\Hypertarget{class_artykul_a5bce19dd628096b49a50dd6400ddbaf1}\label{class_artykul_a5bce19dd628096b49a50dd6400ddbaf1}} 
+\index{Artykul@{Artykul}!stawkaVAT@{stawkaVAT}}
+\index{stawkaVAT@{stawkaVAT}!Artykul@{Artykul}}
+\doxysubsubsection{\texorpdfstring{stawkaVAT()}{stawkaVAT()}}
+{\footnotesize\ttfamily int Artykul\+::stawka\+VAT (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda zwracajaca stawke VAT. 
+
+Implementuje \mbox{\hyperlink{class_towar}{Towar}}.
+
+\mbox{\Hypertarget{class_artykul_aee0c30389cd7dd64a12418ce271734af}\label{class_artykul_aee0c30389cd7dd64a12418ce271734af}} 
+\index{Artykul@{Artykul}!vatString@{vatString}}
+\index{vatString@{vatString}!Artykul@{Artykul}}
+\doxysubsubsection{\texorpdfstring{vatString()}{vatString()}}
+{\footnotesize\ttfamily string Artykul\+::vat\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda zwracajaca stawke VAT w stringu. 
+
+Implementuje \mbox{\hyperlink{class_towar}{Towar}}.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+Artykul.\+h\item 
+Artykul.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+﻿  Faktura.cpp
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\Faktura.cpp(59,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\Faktura.cpp(67,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\Faktura.cpp(113,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  ZarządzanieFakturami.vcxproj -> C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\Debug\ZarządzanieFakturami.exe

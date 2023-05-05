@@ -1,0 +1,218 @@
+\begin{theindex}
+
+  \item {$\sim$Zestaw}
+    \subitem {Zestaw}, \hyperpage{27}
+
+  \indexspace
+
+  \item {Artykul}, \hyperpage{5}
+    \subitem {Artykul}, \hyperpage{6}
+    \subitem {cenaBrutto}, \hyperpage{6}
+    \subitem {cenaNetto}, \hyperpage{6}
+    \subitem {kwotaVAT}, \hyperpage{6}
+    \subitem {stawkaVAT}, \hyperpage{7}
+    \subitem {vatString}, \hyperpage{7}
+
+  \indexspace
+
+  \item {cenaBrutto}
+    \subitem {Artykul}, \hyperpage{6}
+    \subitem {Usluga}, \hyperpage{23}
+    \subitem {Zestaw}, \hyperpage{27}
+  \item {cenaNetto}
+    \subitem {Artykul}, \hyperpage{6}
+    \subitem {Usluga}, \hyperpage{24}
+    \subitem {Zestaw}, \hyperpage{27}
+
+  \indexspace
+
+  \item {dodajFakture}
+    \subitem {KreatorFaktur}, \hyperpage{20}
+  \item {dodajTowar}
+    \subitem {Faktura}, \hyperpage{9}
+    \subitem {Zestaw}, \hyperpage{28}
+
+  \indexspace
+
+  \item {Faktura}, \hyperpage{7}
+    \subitem {dodajTowar}, \hyperpage{9}
+    \subitem {Faktura}, \hyperpage{8}
+    \subitem {getCzyOplacone}, \hyperpage{9}
+    \subitem {getDataSprzedazy}, \hyperpage{9}
+    \subitem {getFormaPlatnosci}, \hyperpage{9}
+    \subitem {getKlient}, \hyperpage{9}
+    \subitem {getKwotaBrutto}, \hyperpage{10}
+    \subitem {getKwotaNetto}, \hyperpage{10}
+    \subitem {getListaTowarow}, \hyperpage{10}
+    \subitem {getMiejsceWystawienia}, \hyperpage{10}
+    \subitem {getNumerFaktury}, \hyperpage{10}
+    \subitem {getSprzedawca}, \hyperpage{10}
+    \subitem {getUwagi}, \hyperpage{10}
+    \subitem {setCzyOplacone}, \hyperpage{10}
+    \subitem {setDataSprzedazy}, \hyperpage{11}
+    \subitem {setFormaPlatnosci}, \hyperpage{11}
+    \subitem {setKlient}, \hyperpage{11}
+    \subitem {setMiejsceWystawienia}, \hyperpage{11}
+    \subitem {setNumerFaktury}, \hyperpage{12}
+    \subitem {setSprzedawca}, \hyperpage{12}
+    \subitem {setUwagi}, \hyperpage{12}
+    \subitem {suma}, \hyperpage{13}
+    \subitem {wypisz}, \hyperpage{13}
+    \subitem {wypiszNumerFaktury}, \hyperpage{13}
+
+  \indexspace
+
+  \item {getCzyOplacone}
+    \subitem {Faktura}, \hyperpage{9}
+  \item {getDataSprzedazy}
+    \subitem {Faktura}, \hyperpage{9}
+  \item {getFormaPlatnosci}
+    \subitem {Faktura}, \hyperpage{9}
+  \item {getIlosc}
+    \subitem {Towar}, \hyperpage{22}
+  \item {getKlient}
+    \subitem {Faktura}, \hyperpage{9}
+  \item {getKwotaBrutto}
+    \subitem {Faktura}, \hyperpage{10}
+  \item {getKwotaNetto}
+    \subitem {Faktura}, \hyperpage{10}
+  \item {getListaTowarow}
+    \subitem {Faktura}, \hyperpage{10}
+  \item {getMiejsceWystawienia}
+    \subitem {Faktura}, \hyperpage{10}
+  \item {getNumerFaktury}
+    \subitem {Faktura}, \hyperpage{10}
+  \item {getSprzedawca}
+    \subitem {Faktura}, \hyperpage{10}
+  \item {getUwagi}
+    \subitem {Faktura}, \hyperpage{10}
+
+  \indexspace
+
+  \item {Klient}, \hyperpage{13}
+  \item {KlientFirmowy}, \hyperpage{14}
+    \subitem {KlientFirmowy}, \hyperpage{16}
+    \subitem {nazwa}, \hyperpage{16}
+    \subitem {wypisz}, \hyperpage{17}
+  \item {KlientIndywidualny}, \hyperpage{17}
+    \subitem {KlientIndywidualny}, \hyperpage{18}
+    \subitem {nazwa}, \hyperpage{18}
+    \subitem {wypisz}, \hyperpage{18}
+  \item {KreatorFaktur}, \hyperpage{19}
+    \subitem {dodajFakture}, \hyperpage{20}
+    \subitem {KreatorFaktur}, \hyperpage{19}
+    \subitem {usunFakture}, \hyperpage{20}
+    \subitem {wyczyscPamiec}, \hyperpage{20}
+    \subitem {wypisywanieKlientow}, \hyperpage{20}
+    \subitem {wypisywanieTowarow}, \hyperpage{20}
+    \subitem {wypiszFakture}, \hyperpage{20}
+    \subitem {wypiszListeFaktur}, \hyperpage{20}
+  \item {kwotaVAT}
+    \subitem {Artykul}, \hyperpage{6}
+    \subitem {Usluga}, \hyperpage{24}
+    \subitem {Zestaw}, \hyperpage{28}
+
+  \indexspace
+
+  \item {nazwa}
+    \subitem {KlientFirmowy}, \hyperpage{16}
+    \subitem {KlientIndywidualny}, \hyperpage{18}
+    \subitem {Towar}, \hyperpage{22}
+
+  \indexspace
+
+  \item {setCzyOplacone}
+    \subitem {Faktura}, \hyperpage{10}
+  \item {setDataSprzedazy}
+    \subitem {Faktura}, \hyperpage{11}
+  \item {setFormaPlatnosci}
+    \subitem {Faktura}, \hyperpage{11}
+  \item {setIlosc}
+    \subitem {Towar}, \hyperpage{22}
+  \item {setKlient}
+    \subitem {Faktura}, \hyperpage{11}
+  \item {setMiejsceWystawienia}
+    \subitem {Faktura}, \hyperpage{11}
+  \item {setNumerFaktury}
+    \subitem {Faktura}, \hyperpage{12}
+  \item {setSprzedawca}
+    \subitem {Faktura}, \hyperpage{12}
+  \item {setUwagi}
+    \subitem {Faktura}, \hyperpage{12}
+  \item {stawkaVAT}
+    \subitem {Artykul}, \hyperpage{7}
+    \subitem {Usluga}, \hyperpage{24}
+    \subitem {Zestaw}, \hyperpage{28}
+  \item {suma}
+    \subitem {Faktura}, \hyperpage{13}
+
+  \indexspace
+
+  \item {Towar}, \hyperpage{21}
+    \subitem {getIlosc}, \hyperpage{22}
+    \subitem {nazwa}, \hyperpage{22}
+    \subitem {setIlosc}, \hyperpage{22}
+    \subitem {wypisz}, \hyperpage{22}
+
+  \indexspace
+
+  \item {Usluga}, \hyperpage{22}
+    \subitem {cenaBrutto}, \hyperpage{23}
+    \subitem {cenaNetto}, \hyperpage{24}
+    \subitem {kwotaVAT}, \hyperpage{24}
+    \subitem {stawkaVAT}, \hyperpage{24}
+    \subitem {Usluga}, \hyperpage{23}
+    \subitem {vatString}, \hyperpage{24}
+  \item {usunFakture}
+    \subitem {KreatorFaktur}, \hyperpage{20}
+
+  \indexspace
+
+  \item {vatString}
+    \subitem {Artykul}, \hyperpage{7}
+    \subitem {Usluga}, \hyperpage{24}
+    \subitem {Zestaw}, \hyperpage{28}
+
+  \indexspace
+
+  \item {wczytajKlientow}
+    \subitem {WczytywaczDanych}, \hyperpage{25}
+  \item {wczytajSprzedawce}
+    \subitem {WczytywaczDanych}, \hyperpage{25}
+  \item {wczytajTowary}
+    \subitem {WczytywaczDanych}, \hyperpage{25}
+  \item {WczytywaczDanych}, \hyperpage{25}
+    \subitem {wczytajKlientow}, \hyperpage{25}
+    \subitem {wczytajSprzedawce}, \hyperpage{25}
+    \subitem {wczytajTowary}, \hyperpage{25}
+  \item {wyczyscPamiec}
+    \subitem {KreatorFaktur}, \hyperpage{20}
+  \item {wypisywanieKlientow}
+    \subitem {KreatorFaktur}, \hyperpage{20}
+  \item {wypisywanieTowarow}
+    \subitem {KreatorFaktur}, \hyperpage{20}
+  \item {wypisz}
+    \subitem {Faktura}, \hyperpage{13}
+    \subitem {KlientFirmowy}, \hyperpage{17}
+    \subitem {KlientIndywidualny}, \hyperpage{18}
+    \subitem {Towar}, \hyperpage{22}
+  \item {wypiszFakture}
+    \subitem {KreatorFaktur}, \hyperpage{20}
+  \item {wypiszListeFaktur}
+    \subitem {KreatorFaktur}, \hyperpage{20}
+  \item {wypiszNumerFaktury}
+    \subitem {Faktura}, \hyperpage{13}
+
+  \indexspace
+
+  \item {Zestaw}, \hyperpage{26}
+    \subitem {$\sim$Zestaw}, \hyperpage{27}
+    \subitem {cenaBrutto}, \hyperpage{27}
+    \subitem {cenaNetto}, \hyperpage{27}
+    \subitem {dodajTowar}, \hyperpage{28}
+    \subitem {kwotaVAT}, \hyperpage{28}
+    \subitem {stawkaVAT}, \hyperpage{28}
+    \subitem {vatString}, \hyperpage{28}
+    \subitem {Zestaw}, \hyperpage{27}
+
+\end{theindex}

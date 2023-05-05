@@ -1,0 +1,138 @@
+\hypertarget{class_zestaw}{}\doxysection{Dokumentacja klasy Zestaw}
+\label{class_zestaw}\index{Zestaw@{Zestaw}}
+
+
+{\ttfamily \#include $<$Zestaw.\+h$>$}
+
+Diagram dziedziczenia dla Zestaw\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_zestaw}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_zestaw_a111cdb3ce2b8dbd17b64f7c25dadf1cd}{Zestaw}} ()
+\item 
+\mbox{\hyperlink{class_zestaw_a111d4ede3d8f20e71f1b45365c121006}{Zestaw}} (string nazwa\+Towaru)
+\item 
+\mbox{\hyperlink{class_zestaw_a416206abd1e91a2d6a136ecdae5177c1}{$\sim$\+Zestaw}} ()
+\item 
+void \mbox{\hyperlink{class_zestaw_a2047ab338fc27f1f1b07ce311ca3ceae}{dodaj\+Towar}} (\mbox{\hyperlink{class_artykul}{Artykul}} $\ast$artykul)
+\item 
+float \mbox{\hyperlink{class_zestaw_a269e1942e31291740e9ad23bc97515c6}{cena\+Netto}} ()
+\item 
+float \mbox{\hyperlink{class_zestaw_a56bf6e2a2ac4eedfa2322bde244e375e}{cena\+Brutto}} ()
+\item 
+float \mbox{\hyperlink{class_zestaw_a4adbf08abed1f5dac8f36c07858303a7}{kwota\+VAT}} ()
+\item 
+int \mbox{\hyperlink{class_zestaw_a4eea30d063047c3fb5c6087a4f145756}{stawka\+VAT}} ()
+\item 
+string \mbox{\hyperlink{class_zestaw_a2dddce4ea5c93ad943a5cb326b60bcf7}{vat\+String}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Dodatkowe Dziedziczone Składowe}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa jednego typu towaru -\/ \mbox{\hyperlink{class_zestaw}{Zestaw}}. Podklasa, ktora dziedziczy po klasie \mbox{\hyperlink{class_towar}{Towar}}. Zawiera w sobie wektor towarow. 
+\begin{DoxyParams}{Parametry}
+{\em lista\+Towarow} & baza towarow; \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{class_zestaw_a111cdb3ce2b8dbd17b64f7c25dadf1cd}\label{class_zestaw_a111cdb3ce2b8dbd17b64f7c25dadf1cd}} 
+\index{Zestaw@{Zestaw}!Zestaw@{Zestaw}}
+\index{Zestaw@{Zestaw}!Zestaw@{Zestaw}}
+\doxysubsubsection{\texorpdfstring{Zestaw()}{Zestaw()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Zestaw\+::\+Zestaw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Konstruktor bez parametrow. \mbox{\Hypertarget{class_zestaw_a111d4ede3d8f20e71f1b45365c121006}\label{class_zestaw_a111d4ede3d8f20e71f1b45365c121006}} 
+\index{Zestaw@{Zestaw}!Zestaw@{Zestaw}}
+\index{Zestaw@{Zestaw}!Zestaw@{Zestaw}}
+\doxysubsubsection{\texorpdfstring{Zestaw()}{Zestaw()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Zestaw\+::\+Zestaw (\begin{DoxyParamCaption}\item[{string}]{nazwa\+Towaru }\end{DoxyParamCaption})}
+
+Konstruktor ustawiajacy nazwe towaru. 
+\begin{DoxyParams}{Parametry}
+{\em nazwa\+Towaru} & nazwa towaru; \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_zestaw_a416206abd1e91a2d6a136ecdae5177c1}\label{class_zestaw_a416206abd1e91a2d6a136ecdae5177c1}} 
+\index{Zestaw@{Zestaw}!````~Zestaw@{$\sim$Zestaw}}
+\index{````~Zestaw@{$\sim$Zestaw}!Zestaw@{Zestaw}}
+\doxysubsubsection{\texorpdfstring{$\sim$Zestaw()}{~Zestaw()}}
+{\footnotesize\ttfamily Zestaw\+::$\sim$\+Zestaw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destruktor zwalniajacy pamiec. 
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{class_zestaw_a56bf6e2a2ac4eedfa2322bde244e375e}\label{class_zestaw_a56bf6e2a2ac4eedfa2322bde244e375e}} 
+\index{Zestaw@{Zestaw}!cenaBrutto@{cenaBrutto}}
+\index{cenaBrutto@{cenaBrutto}!Zestaw@{Zestaw}}
+\doxysubsubsection{\texorpdfstring{cenaBrutto()}{cenaBrutto()}}
+{\footnotesize\ttfamily float Zestaw\+::cena\+Brutto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda wyliczajaca i zwracajaca kwote brutto. 
+
+Implementuje \mbox{\hyperlink{class_towar}{Towar}}.
+
+\mbox{\Hypertarget{class_zestaw_a269e1942e31291740e9ad23bc97515c6}\label{class_zestaw_a269e1942e31291740e9ad23bc97515c6}} 
+\index{Zestaw@{Zestaw}!cenaNetto@{cenaNetto}}
+\index{cenaNetto@{cenaNetto}!Zestaw@{Zestaw}}
+\doxysubsubsection{\texorpdfstring{cenaNetto()}{cenaNetto()}}
+{\footnotesize\ttfamily float Zestaw\+::cena\+Netto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda wyliczajaca i zwracajaca kwote netto. 
+
+Implementuje \mbox{\hyperlink{class_towar}{Towar}}.
+
+\mbox{\Hypertarget{class_zestaw_a2047ab338fc27f1f1b07ce311ca3ceae}\label{class_zestaw_a2047ab338fc27f1f1b07ce311ca3ceae}} 
+\index{Zestaw@{Zestaw}!dodajTowar@{dodajTowar}}
+\index{dodajTowar@{dodajTowar}!Zestaw@{Zestaw}}
+\doxysubsubsection{\texorpdfstring{dodajTowar()}{dodajTowar()}}
+{\footnotesize\ttfamily void Zestaw\+::dodaj\+Towar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_artykul}{Artykul}} $\ast$}]{artykul }\end{DoxyParamCaption})}
+
+Metoda dodajaca artykul do listy towarow. 
+\begin{DoxyParams}{Parametry}
+{\em artykul} & typ towaru; \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_zestaw_a4adbf08abed1f5dac8f36c07858303a7}\label{class_zestaw_a4adbf08abed1f5dac8f36c07858303a7}} 
+\index{Zestaw@{Zestaw}!kwotaVAT@{kwotaVAT}}
+\index{kwotaVAT@{kwotaVAT}!Zestaw@{Zestaw}}
+\doxysubsubsection{\texorpdfstring{kwotaVAT()}{kwotaVAT()}}
+{\footnotesize\ttfamily float Zestaw\+::kwota\+VAT (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda wyliczajaca i zwracajaca kwote VAT. 
+
+Implementuje \mbox{\hyperlink{class_towar}{Towar}}.
+
+\mbox{\Hypertarget{class_zestaw_a4eea30d063047c3fb5c6087a4f145756}\label{class_zestaw_a4eea30d063047c3fb5c6087a4f145756}} 
+\index{Zestaw@{Zestaw}!stawkaVAT@{stawkaVAT}}
+\index{stawkaVAT@{stawkaVAT}!Zestaw@{Zestaw}}
+\doxysubsubsection{\texorpdfstring{stawkaVAT()}{stawkaVAT()}}
+{\footnotesize\ttfamily int Zestaw\+::stawka\+VAT (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda zwracajaca pusta stawke VAT. 
+
+Implementuje \mbox{\hyperlink{class_towar}{Towar}}.
+
+\mbox{\Hypertarget{class_zestaw_a2dddce4ea5c93ad943a5cb326b60bcf7}\label{class_zestaw_a2dddce4ea5c93ad943a5cb326b60bcf7}} 
+\index{Zestaw@{Zestaw}!vatString@{vatString}}
+\index{vatString@{vatString}!Zestaw@{Zestaw}}
+\doxysubsubsection{\texorpdfstring{vatString()}{vatString()}}
+{\footnotesize\ttfamily string Zestaw\+::vat\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda zwracajaca pusty VAT; 
+
+Implementuje \mbox{\hyperlink{class_towar}{Towar}}.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+Zestaw.\+h\item 
+Zestaw.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,95 @@
+\hypertarget{class_towar}{}\doxysection{Dokumentacja klasy Towar}
+\label{class_towar}\index{Towar@{Towar}}
+
+
+{\ttfamily \#include $<$Towar.\+h$>$}
+
+Diagram dziedziczenia dla Towar\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_towar}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_towar_af2b6c29b9f564365323f25749e27bf8b}\label{class_towar_af2b6c29b9f564365323f25749e27bf8b}} 
+virtual float {\bfseries cena\+Netto} ()=0
+\item 
+\mbox{\Hypertarget{class_towar_a9a4da955aec9d43b9c760f7a8aaab6e4}\label{class_towar_a9a4da955aec9d43b9c760f7a8aaab6e4}} 
+virtual float {\bfseries cena\+Brutto} ()=0
+\item 
+\mbox{\Hypertarget{class_towar_a60da69c75d4ef950425dc86be0f1d971}\label{class_towar_a60da69c75d4ef950425dc86be0f1d971}} 
+virtual int {\bfseries stawka\+VAT} ()=0
+\item 
+\mbox{\Hypertarget{class_towar_a054fe061cf2ceaf1bb3c38bf65bca7d7}\label{class_towar_a054fe061cf2ceaf1bb3c38bf65bca7d7}} 
+virtual float {\bfseries kwota\+VAT} ()=0
+\item 
+\mbox{\Hypertarget{class_towar_ae3f8e428bf95ed89fb10a7d1b7508ef9}\label{class_towar_ae3f8e428bf95ed89fb10a7d1b7508ef9}} 
+virtual string {\bfseries vat\+String} ()=0
+\item 
+void \mbox{\hyperlink{class_towar_a9726ddfd0295eee633b549ee543e543c}{wypisz}} ()
+\item 
+string \mbox{\hyperlink{class_towar_ae297fb6a651604ae8d8c4496781b8cf0}{nazwa}} ()
+\item 
+void \mbox{\hyperlink{class_towar_a74feb18fb556c068861220b9ff2f3204}{set\+Ilosc}} (int ilosc)
+\item 
+int \mbox{\hyperlink{class_towar_a01e663a45dbd156c04ea7625255aa09d}{get\+Ilosc}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Atrybuty chronione}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_towar_aac548d2ba28c07d5da96593a280535b8}\label{class_towar_aac548d2ba28c07d5da96593a280535b8}} 
+string {\bfseries nazwa\+Towaru}
+\item 
+\mbox{\Hypertarget{class_towar_a1d39e5e7723214add19e3f65a6b6012a}\label{class_towar_a1d39e5e7723214add19e3f65a6b6012a}} 
+string {\bfseries jednostka}
+\item 
+\mbox{\Hypertarget{class_towar_a316262d2b0ad3d2f14973596268381f5}\label{class_towar_a316262d2b0ad3d2f14973596268381f5}} 
+int {\bfseries ilosc} = 1
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa zawierajaca informacje na temat nazwy towaru, jednostki, ilosci oraz wirtualne metody. 
+\begin{DoxyParams}{Parametry}
+{\em nazwa\+Towaru} & nazwa towaru; \\
+\hline
+{\em jednostka} & jednostka; \\
+\hline
+{\em ilosc} & ilosc towaru z domyslna wartoscia 1; \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{class_towar_a01e663a45dbd156c04ea7625255aa09d}\label{class_towar_a01e663a45dbd156c04ea7625255aa09d}} 
+\index{Towar@{Towar}!getIlosc@{getIlosc}}
+\index{getIlosc@{getIlosc}!Towar@{Towar}}
+\doxysubsubsection{\texorpdfstring{getIlosc()}{getIlosc()}}
+{\footnotesize\ttfamily int Towar\+::get\+Ilosc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda zwracajaca ilosc towaru. \mbox{\Hypertarget{class_towar_ae297fb6a651604ae8d8c4496781b8cf0}\label{class_towar_ae297fb6a651604ae8d8c4496781b8cf0}} 
+\index{Towar@{Towar}!nazwa@{nazwa}}
+\index{nazwa@{nazwa}!Towar@{Towar}}
+\doxysubsubsection{\texorpdfstring{nazwa()}{nazwa()}}
+{\footnotesize\ttfamily string Towar\+::nazwa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda zwracajaca nazwe towaru. \mbox{\Hypertarget{class_towar_a74feb18fb556c068861220b9ff2f3204}\label{class_towar_a74feb18fb556c068861220b9ff2f3204}} 
+\index{Towar@{Towar}!setIlosc@{setIlosc}}
+\index{setIlosc@{setIlosc}!Towar@{Towar}}
+\doxysubsubsection{\texorpdfstring{setIlosc()}{setIlosc()}}
+{\footnotesize\ttfamily void Towar\+::set\+Ilosc (\begin{DoxyParamCaption}\item[{int}]{ilosc }\end{DoxyParamCaption})}
+
+Metoda przypisujaca nowa wartosc do pola ilosc. \mbox{\Hypertarget{class_towar_a9726ddfd0295eee633b549ee543e543c}\label{class_towar_a9726ddfd0295eee633b549ee543e543c}} 
+\index{Towar@{Towar}!wypisz@{wypisz}}
+\index{wypisz@{wypisz}!Towar@{Towar}}
+\doxysubsubsection{\texorpdfstring{wypisz()}{wypisz()}}
+{\footnotesize\ttfamily void Towar\+::wypisz (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda wypisujaca nazwe towaru, ilosc, jednostke, cene netto, cene brutto, stawke VAT oraz wartosc VAT. 
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+Towar.\+h\item 
+Towar.\+cpp\end{DoxyCompactItemize}

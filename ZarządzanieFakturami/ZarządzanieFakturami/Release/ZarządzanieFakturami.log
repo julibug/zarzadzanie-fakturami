@@ -1,0 +1,35 @@
+﻿  Artykul.cpp
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\Artykul.cpp(28,10): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\Artykul.cpp(51,27): warning C4244: "return": konwersja z "double" do "float", możliwa utrata danych
+  Faktura.cpp
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\Faktura.cpp(117,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\Faktura.cpp(128,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\Faktura.cpp(201,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Klient.cpp
+  KlientFirmowy.cpp
+  KlientIndywidualny.cpp
+  KreatorFaktur.cpp
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\KreatorFaktur.cpp(40,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\KreatorFaktur.cpp(50,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\KreatorFaktur.cpp(147,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\KreatorFaktur.cpp(157,8): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\KreatorFaktur.cpp(165,8): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\KreatorFaktur.cpp(30,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\KreatorFaktur.cpp(19): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „void KreatorFaktur::zwolnijPamiec<Faktura>(std::vector<Faktura *,std::allocator<Faktura *>>)” funkcji szablon
+  Towar.cpp
+  Usluga.cpp
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\Usluga.cpp(26,10): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\Usluga.cpp(49,27): warning C4244: "return": konwersja z "double" do "float", możliwa utrata danych
+  WczytywaczDanych.cpp
+  ZarządzanieFakturami.cpp
+  Zestaw.cpp
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\Zestaw.cpp(12,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\Zestaw.cpp(38,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\Zestaw.cpp(49,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\Zestaw.cpp(74,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\ZarządzanieFakturami\Zestaw.cpp(76,17): warning C4244: "=": konwersja z "double" do "float", możliwa utrata danych
+  Trwa generowanie kodu
+  Previous IPDB not found, fall back to full compilation.
+  All 623 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Zakończono generowanie kodu
+  ZarządzanieFakturami.vcxproj -> C:\Users\julia\source\repos\d2f7ed21-gr02-repo\Projekt\ZarządzanieFakturami\Release\ZarządzanieFakturami.exe
